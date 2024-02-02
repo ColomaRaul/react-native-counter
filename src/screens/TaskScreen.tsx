@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#28425B',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
     },
     boxPurple: {
         width: 100,
@@ -31,6 +31,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#F0A23B',
         borderWidth: 10,
         borderColor: 'white',
+        justifyContent: 'center',
+        alignSelf: 'center',
     },
     boxBlue: {
         width: 100,
@@ -38,6 +40,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#2BC4D9',
         borderWidth: 10,
         borderColor: 'white',
-        alignSelf: 'center',
+        alignSelf: 'flex-start',
     },
 });
