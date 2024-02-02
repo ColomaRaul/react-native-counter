@@ -25,6 +25,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#5856D6',
         borderWidth: 10,
         borderColor: 'white',
+        top: 100,
     },
     boxOrange: {
         width: 100,
