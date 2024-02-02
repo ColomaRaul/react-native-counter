@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#5856D6',
         borderWidth: 10,
         borderColor: 'white',
+        alignSelf: 'flex-end',
     },
     boxOrange: {
         width: 100,
@@ -32,10 +33,11 @@ const styles = StyleSheet.create({
         borderColor: 'white',
     },
     boxBlue: {
-        // width: 100,
+        width: 100,
         height: 100,
         backgroundColor: '#2BC4D9',
         borderWidth: 10,
         borderColor: 'white',
+        alignSelf: 'center',
     },
 });
