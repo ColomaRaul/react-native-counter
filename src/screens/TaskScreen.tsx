@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#F0A23B',
         borderWidth: 10,
         borderColor: 'white',
+        left: 100,
     },
     boxBlue: {
         width: 100,
