@@ -14,7 +14,8 @@ export const TaskScreen = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#28425B'
+        backgroundColor: '#28425B',
+        justifyContent: 'center',
     },
     boxPurple: {
         width: 100,
@@ -25,14 +26,13 @@ const styles = StyleSheet.create({
     },
     boxOrange: {
         width: 100,
-        // height: 100,
-        flex: 1,
+        height: 100,
         backgroundColor: '#F0A23B',
         borderWidth: 10,
         borderColor: 'white',
     },
     boxBlue: {
-        width: 100,
+        // width: 100,
         height: 100,
         backgroundColor: '#2BC4D9',
         borderWidth: 10,
